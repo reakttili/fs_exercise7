@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snap renders correctly 1`] = `
+<div>
+  <div
+    className="titleauthordiv"
+  >
+     
+  </div>
+  <div
+    className="likesdiv"
+  >
+    blog has 
+     likes
+    <button
+      onClick="onclick"
+    >
+      like
+    </button>
+  </div>
+</div>
+`;
+
+exports[`snap renders correctly 2`] = `
+<div
+  className="maindiv"
+  style={
+    Object {
+      "border": "",
+      "borderWidth": 0,
+      "marginBottom": 20,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+    }
+  }
+>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="thirteen wide column"
+    >
+      <div>
+        <table
+          className="ui table"
+        >
+          <tbody
+            className=""
+          >
+            <tr
+              className=""
+            >
+              <td
+                className=""
+              >
+                <div
+                  className="namediv"
+                  onClick={[Function]}
+                >
+                  <h1>
+                    title
+                     
+                    VB
+                  </h1>
+                </div>
+              </td>
+            </tr>
+            <tr
+              className=""
+            >
+              <td
+                className=""
+              >
+                5
+                 likes
+                <button
+                  className="ui right floated button"
+                  name="like"
+                  onClick={[Function]}
+                  role="button"
+                >
+                  like
+                </button>
+              </td>
+            </tr>
+            <tr
+              className=""
+            >
+              <td
+                className=""
+              >
+                <div>
+                  <a
+                    href="www"
+                  >
+                    www
+                  </a>
+                </div>
+              </td>
+            </tr>
+            <tr
+              className=""
+            >
+              <td
+                className=""
+              >
+                <div>
+                  added by: 
+                  
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h1>
+          Comments
+        </h1>
+        <input
+          name="commentInput"
+        />
+        <button
+          name="addCommentButton"
+          onClick={[Function]}
+        >
+          add comment
+        </button>
+      </div>
+    </div>
+    <div
+      className="three wide column"
+    />
+  </div>
+</div>
+`;

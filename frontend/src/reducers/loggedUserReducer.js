@@ -1,0 +1,24 @@
+const reducer = (store = null, action) => {
+  switch (action.type) {
+  case 'SET_LOGGED_USER':
+    store = action.user
+    return store
+  default:
+    return store
+  }
+}
+
+const actionFor = {
+  settingLoggedUser(user) {
+    //return async (dispatch, getState) => {
+    return async (dispatch) => {
+      dispatch({
+        type: 'SET_LOGGED_USER',
+        user: user
+      })
+    }
+  }
+}
+
+export { reducer }
+export { actionFor }
